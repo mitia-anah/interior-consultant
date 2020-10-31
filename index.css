@@ -1,0 +1,94 @@
+body {
+    background: #181719;
+}
+.menu,
+Header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2rem;
+}
+header h1 {
+    /* font-family: Crimson Pro; */
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+}
+
+.menu-list {
+    list-style: none;
+    margin: 1rem;
+}
+.menu-list a {
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    font-weight: 500;
+}
+main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+section,
+article {
+    margin: 1.5rem;
+}
+
+article h2{
+    /* font-family: Lora; */
+    font-size: 48px;
+    line-height: 61px;    
+    color: #FFFFFF;
+    margin: 0;
+}
+article p {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+
+}
+section {
+    position: relative;
+}
+
+picture {
+    /* position: absolute; */
+
+}
+img {
+    max-width: 100%;
+}
+.profile img {
+    margin: 1rem;
+    padding: 1rem;
+    width: 70px;
+    border-radius: 50%;
+
+}
+.profile {
+    position: absolute;
+    margin-top: -80px;
+    max-width: 410px;
+    left: 40%;
+    right: 5%;
+    background: #181719;
+}
+.release-date {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 31px;
+    color: #FFFFFF;
+    text-align: start;
+}
+.name-and-photo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
